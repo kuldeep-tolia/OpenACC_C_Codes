@@ -1,7 +1,7 @@
 Problem Description:  
   
 -> A stencil computation is implemented wherein each iteration, cells compute their values using the neighboring ones, according to the following formula:  
-$$A[i][j] += A[i-1][j] + A[i-1][j+1]$$.  
+$$A[i][j] += A[i-1][j] + A[i-1][j+1]$$  
 
 -> The computation boundaries remain intact.  
 -> The stencil computation is performed for $10$ outer iterations.  
